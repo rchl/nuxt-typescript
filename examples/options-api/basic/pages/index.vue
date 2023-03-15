@@ -3,6 +3,7 @@
     <button @click="increment">
       Increment
     </button>
+    <div>{{ asyncProperty }}</div>
     <p>Counter : {{ counter }}</p>
     <button @click="decrement">
       Decrement
@@ -14,6 +15,11 @@
 import Vue from 'vue'
 
 export default Vue.extend({
+  asyncData () {
+    return {
+      asyncProperty: [1, 2, 3]
+    }
+  },
   data () {
     return {
       counter: 0

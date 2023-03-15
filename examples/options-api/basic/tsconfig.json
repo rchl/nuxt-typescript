@@ -23,7 +23,8 @@
       ]
     },
     "types": [
-      "@nuxt/types"
+      "@nuxt/types",
+      "less"
     ]
   }
 }

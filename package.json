@@ -10,7 +10,7 @@
     "test": "yarn lint && jest"
   },
   "devDependencies": {
-    "@nuxt/types": "2.x",
+    "@nuxt/types": "2.16.2",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@types/jest": "^29.4.0",
     "@vue/composition-api": "^1.7.1",

@@ -13,7 +13,8 @@
     "post-update": "yarn upgrade --latest"
   },
   "devDependencies": {
-    "@nuxt/types": "2.x",
-    "@nuxt/typescript-build": "latest"
+    "@nuxt/types": "2.16.2",
+    "@nuxt/typescript-build": "latest",
+    "sass": "^1.59.3"
   }
 }

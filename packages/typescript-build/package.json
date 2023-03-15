@@ -23,7 +23,7 @@
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "@nuxt/types": ">=2.13.1",
+    "@nuxt/types": "2.16.2",
     "typescript": "4.x"
   },
   "publishConfig": {
